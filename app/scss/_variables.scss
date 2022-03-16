@@ -5,6 +5,9 @@
     }
 */
 // common Media Queries
+$mq-420-down: "only screen and (max-width: 420px)";
+$mq-420-up: "only screen and (min-width: 420px)";
+
 $mq-620-down: "only screen and (max-width: 620px)";
 $mq-620-up: "only screen and (min-width: 620px)";
 

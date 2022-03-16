@@ -1,8 +1,14 @@
+* {
+    font-family: 'Manrope', sans-serif;
+    color: $light_cayan;
+}
+p { 
+    font-size: 1.75rem;
+}
 h1, h2, h3 {
     margin-top: 0px;
 }
 
 h1 {
     text-transform: uppercase;
-    color: $black;
 }

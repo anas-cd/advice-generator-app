@@ -9,21 +9,42 @@
         <meta name="theme-color" content="#1843c1" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#1843c1">
 
-        <title></title>
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <title>Frontend Mentor | Advice generator app</title>
 
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">  
         
         <!-- CSS File -->
         <link rel="stylesheet" href="app/dist/style.css">
+        <style>
+            .attribution { font-size: 11px; text-align: center; margin-top: 3rem;}
+            .attribution a { color: hsl(228, 45%, 44%); }
+        </style>
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
     </head>
     <body>
 
         <main>
             
-            <h1>your boilerplate is ready</h1>
+            <h1>Advice #<span id="adid" class="adid">117</span> </h1>
+            <p>" <span id="advice" class="advice"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos a fugiat molestias rem ad eius quod repellat totam quae recusandae?</span> "</p>
+            <img src="/images/pattern-divider-desktop.svg" alt="pattern-divider-desktop">
+            <button id="btndicer" class="btndice"></button>
+            
+
             
         </main>
+
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://twitter.com/AnasCd" target="_blank">Anas Ali</a>.
+        </div>
 
         <!-- JavaScript File -->
         <script src="app/dist/all.js"></script>
