@@ -6,16 +6,16 @@ let slipdata;
 // Global
 app.global = {
     init: function(){ // Load all global functions here
-        console.log("load global functions");
+        console.log("loading global functions");
         app.global.loadAdvice();
     },
-    loadAdvice: function(){ // Some specific function
-        console.log("loadAdvice()");
+    loadAdvice: function(){ // advice function
+        console.log("loading advice");
 
         // calling api
         $.getJSON('https://api.adviceslip.com/advice', function(data) {
             
-            console.log("getJSON intered");
+            console.log("fetching advice ...");
             slipdata =  data.slip; // assigning the object to slipdata
             console.log(slipdata);          //
             console.log(slipdata.id);       // checking 
@@ -32,6 +32,6 @@ app.global = {
 app.global.init();
 
 btn.addEventListener('click', () => {
-    console.log("click preformed"); 
+    console.log("dice rolled"); 
     app.global.loadAdvice();
 });
