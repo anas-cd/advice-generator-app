@@ -60,7 +60,8 @@ main {
         align-self: center;
         width: 64px;
         height: 64px;
-        top: 3rem;
+        top: 3rem;  
+        color: transparent;
         
         @media #{$mq-420-up} {
             transition: all .2s cubic-bezier(.48,2.43,.21,.46);
