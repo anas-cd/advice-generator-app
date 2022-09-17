@@ -80,7 +80,7 @@ this will disable caching globally, not a good solution for big projects as you 
 - [Jquery.ajax docs](https://api.jquery.com/jquery.ajax/) - This helped me understand the synatx of how to disable cache of ajax, and made me understand how getJSON uses ajax. 
 
 ## Author
-
+- Website - [dev.anasali.info](https://dev.anasali.info/)
 - Frontend Mentor - [@anas-cd](https://www.frontendmentor.io/profile/anas-cd)
 - Twitter - [AnasCd](https://twitter.com/AnasCd)
 
